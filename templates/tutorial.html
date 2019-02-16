@@ -1,0 +1,60 @@
+<ion-view view-title="Tutorial"  class="game game-type--{{game.type}}">
+  <div class="bar bar-header bar-positive">
+    <h1 class="title">Tutorial</h1>
+  </div>
+<ion-slide-box>
+
+  <ion-slide class="row row-center">
+   	<div class="col col-center">
+      <h2>Goal of the game</h2>
+    	<h4>Your goal is to save the good air and let them pass through and reach the bottom. <br /><br />Each good air particle saved will fetch you a point.</h4> 
+      <h4 style="color: red;" >Do not tap the good air particle or you'll loose the game!</h4>
+    	 <img class="tutorial-emoji" src="img/emoji/smile.png"/>
+    	<img class="tutorial-emoji" src="img/emoji/grin.png"/>
+    </div>
+  </ion-slide>
+  <ion-slide class="row row-center">
+  	<div class="col col-center">
+    	<h2>Bad Air - A menance</h2>
+      <h4>Your objective is to kill bad air particles and keep them away from reaching the bottom of the screen. <br /><br />Tap the bad air particle to kill them and send them away into the oblivion!</h4>
+    	 <h4 style="color: red;" >Do not tap the good air aprticle or you'll loose the game!</h4>
+
+    	<img class="tutorial-emoji" src="img/emoji/rage.png"/>
+    	<img class="tutorial-emoji" src="img/emoji/japanese_ogre.png"/>
+    </div>
+  </ion-slide>
+  <ion-slide class="row row-center">
+  	<div class="col col-center">
+  	<div class="row row-center">
+  		<div class="col col-center"><h2>Friends &amp; Foes</h2></div>
+   	</div>
+
+    <div class="row row-center">
+      <img class="tutorial-emoji" src="img/emoji/ghost.png"/>
+      <h5>Carbon Monoxide is not your friend. When there is a CO particle on the screen it would make your life a living hell. Everything would become hazy and it would be very difficult to see what's going on. Tap on the CO particle to make everuthing visible!</h5>
+    </div>
+    <div class="row row-center">
+      <img class="tutorial-emoji" src="img/emoji/cake.png"/>
+     <h5>Cup-cake is definitely your friend! When you tap a cup-cake, everything on the screen grows in size, making it easier to spot and tap the not-so-friendly angry emojis. Like everything in life, this lasts only for a few seconds but is really a great help.</h5>
+   </div>    
+   	<div class="row row-center">
+ 			<img class="tutorial-emoji" src="img/emoji/watch.png"/>
+  		<h5>Timer will pause the game for 5 seconds, giving you enogh time to kill all angry emojis on the screen. However, you loose 3 points from your score if you avail the services of a Timer.</h5>
+		</div>
+   	<div class="row row-center">
+   			<img class="tutorial-emoji" src="img/emoji/ninja.png"/>
+    		<h5>The Ninja will clear everything on the screen, this is really usefull when there are a lot of angry emojis on your screen. However, using a Ninja Emoji will cost you 5 points from your score.</h5>
+		</div>
+
+
+    </div>
+  </ion-slide>
+  <ion-slide class="row row-center">
+ 		<div class="col col-center">
+    <h2>Ready to Rock?</h2>
+		<a ui-sref="game" class="button button-positive button-block">
+		  Let's Go!
+		</a>
+		</div>
+  </ion-slide>
+</ion-slide-box>
